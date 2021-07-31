@@ -1,6 +1,6 @@
-# video_time_lapse
+# Video Time Lapse Creator
 
-Automation utilies for for creating time lapse videos from motion activated secuirty camera recordings
+Automation utilies for creating time lapse videos from motion activated secuirty camera recordings.
 
 Consists from a few Windows batch job scripts that:
 - Process all `*.mp4` files in the curent dir and create their downsampled versions
