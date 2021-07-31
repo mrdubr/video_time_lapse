@@ -1,0 +1,1 @@
+for /f %%f in ('dir /b *.mp4') do ffmpeg.exe -i %%f -vf select='not(mod(n,30))',setpts=N/FRAME_RATE/TB sml_%%f 
